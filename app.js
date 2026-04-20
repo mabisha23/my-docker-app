@@ -1,7 +1,8 @@
+
 const http = require('http');
 
 const server = http.createServer((req, res) => {
-    res.setHeader('Content-Type', 'text/plain; charset=utf-8'); // ✅ fix
+    res.setHeader('Content-Type', 'text/plain; charset=utf-8');
     res.write("Hello Docker App 🚀 Mabisha");
     res.end();
 });
