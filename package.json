@@ -1,12 +1,12 @@
-<<<<<<< HEAD
 {
-  "name": "docker-app",
+  "name": "my-docker-app",
   "version": "1.0.0",
-  "main": "app.js"
-=======
-{
-  "name": "docker-app",
-  "version": "1.0.0",
-  "main": "app.js"
->>>>>>> 66a87154cb2cf4e9fc3f9c7e436ba04340b4b19a
+  "description": "Simple Node.js Docker app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Mabisha",
+  "license": "ISC",
+  "dependencies": {}
 }
